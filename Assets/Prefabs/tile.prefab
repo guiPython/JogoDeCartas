@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frenteDaCarta: {fileID: 0}
-  versoDaCarta: {fileID: 21300000, guid: 3884e20e385a05c4d9635501e91ac79c, type: 3}
+  versoDaCarta: {fileID: 0}
 --- !u!61 &-7903941713062562503
 BoxCollider2D:
   m_ObjectHideFlags: 0

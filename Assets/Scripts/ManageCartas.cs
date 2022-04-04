@@ -292,12 +292,12 @@ public class ManageCartas : MonoBehaviour
         GameObject centroDaTela = GameObject.Find("centroDaTela");
         float escalaCartaOriginal = Carta.transform.localScale.x;
         float fatorEscalaX = (650 * escalaCartaOriginal) / 110.0f;
-        float fatorEscalaY = (1500 * escalaCartaOriginal) / 110.0f;
+        float fatorEscalaY = (950 * escalaCartaOriginal) / 110.0f;
 
         // Criamos a posição para o GameObject que representa carta com os devidos ajustes
         Vector3 cartaPosicao = new Vector3(
             centroDaTela.transform.position.x + ((rank - numeroDeCartasNoJogo / 2) * fatorEscalaX),
-            centroDaTela.transform.position.y + ((linha - 2 / 2) * fatorEscalaY) + 1.5f, 
+            centroDaTela.transform.position.y + ((linha - 2 / 2) * fatorEscalaY), 
             centroDaTela.transform.position.z);
 
         // Criamos o GameObject da carta e configuramos seu nome e numero da carta As até King 
